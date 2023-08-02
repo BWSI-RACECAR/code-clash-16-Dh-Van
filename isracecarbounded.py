@@ -62,9 +62,9 @@ class Solution:
             left_turns = instructions.count("L")
             right_turns = instructions.count("R")
 
-            if(left_turns == right_turns): return True
+            if(left_turns == right_turns): return False
 
-            return False
+            return True
         
 def main():
     input1=input()
